@@ -4,7 +4,6 @@ description: This is for TEST
 inputs:
   name:
     description: call name
-    default: "bro"
 
 outputs:
   output:
