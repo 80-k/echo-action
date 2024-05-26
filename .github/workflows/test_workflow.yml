@@ -15,4 +15,4 @@ jobs:
       - name: show output of custom action
         run: echo "${{ steps.custom.outputs }}"
       - name: test3
-        run: echo "${{ steps.custom.outputs.to-the-world }}"
+        run: echo "${{ steps.custom.outputs.output }}"
