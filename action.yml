@@ -1,0 +1,15 @@
+name: Docker action Test
+description: This is for TEST
+
+inputs:
+  name:
+    description: call name
+    default: "man"
+
+outputs:
+  to-the-world:
+    description: comment to the world
+
+runs:
+  using: docker
+  main: Dockerfile
