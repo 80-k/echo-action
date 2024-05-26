@@ -13,7 +13,7 @@ jobs:
         id: custom
         uses: 80-k/echo-action@main
         with:
-          name: "bro"
+          name: "ice king"
       - name: show output of custom action
         run: echo "${{ steps.custom.outputs }}"
       - name: test3
