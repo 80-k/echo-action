@@ -1,0 +1,13 @@
+name: Test My Custom action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run my echo-action
+        uses: 80-k/echo-action@main
