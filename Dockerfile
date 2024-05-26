@@ -2,8 +2,6 @@ FROM node:20
 
 ARG name
 
-WORKDIR /app
-
 COPY . .
 
 RUN npm install -y @actions/core
