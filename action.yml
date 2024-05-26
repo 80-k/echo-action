@@ -12,6 +12,6 @@ outputs:
 
 runs:
   using: docker
-  image: linux-latest
+  image: docker://ubuntu
   args:
     - ${{ inputs.name }}
