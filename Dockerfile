@@ -1,5 +1,6 @@
 FROM node:20
 
+COPY . .
 COPY ./src .
 
 RUN npm install -y @actions/core
