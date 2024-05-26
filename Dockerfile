@@ -1,7 +1,5 @@
 FROM node:20
 
-ARG name
-
 COPY . .
 
 RUN npm install -y @actions/core
