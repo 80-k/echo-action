@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run my echo-action
+        id: custom
         uses: 80-k/echo-action@main
+      - name: show output of custom action
+        run: echo $steps.custom.output.to-the-world
