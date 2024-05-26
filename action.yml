@@ -13,4 +13,5 @@ outputs:
 runs:
   using: docker
   image: linux-latest
-  main: Dockerfile
+  args:
+    name: ${{ inputs.name }}
