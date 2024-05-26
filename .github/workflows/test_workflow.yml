@@ -13,4 +13,8 @@ jobs:
         id: custom
         uses: 80-k/echo-action@main
       - name: show output of custom action
-        run: echo ${{ steps.custom.outputs.to-the-world }}
+        run: echo "${{ steps.custom.outputs }}"
+      - name: test2
+        run: echo "${{ steps.custom.output }}"
+      - name: test3
+        run: echo "${{ steps.custom.outputs.to-the-world }}"
