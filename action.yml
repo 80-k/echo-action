@@ -11,5 +11,5 @@ outputs:
     description: comment to the world
 
 runs:
-  using: node20
+  using: docker
   main: Dockerfile
