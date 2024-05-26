@@ -2,4 +2,4 @@ import * as core from '@actions/core';
 
 const name = core.getInput('name');
 const result = `Hello, ${name}`;
-core.setOutput('', result);
+core.setOutput('to-the-world', result);
