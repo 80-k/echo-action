@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install -y @acitons/core
-RUN npm install -y @acitons/github
+RUN npm install -y @actions/core
+RUN npm install -y @actions/github
 
 CMD ./src/main.js
